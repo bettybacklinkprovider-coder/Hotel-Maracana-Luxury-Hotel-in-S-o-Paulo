@@ -1,3 +1,14 @@
+import heroFacadeImg from '../assets/images/hero_hotel_maracana_1793007146083.jpg';
+import executiveSuiteImg from '../assets/images/room_executive_suite_1793007148625.jpg';
+import deluxeTwinImg from '../assets/images/room_deluxe_twin_1793007148472.jpg';
+import familyStudioImg from '../assets/images/room_family_studio_1793007150123.jpg';
+import hospitalityLoungeImg from '../assets/images/hotel_hospitality_lounge_1793007150089.jpg';
+import facilityWifiImg from '../assets/images/facility_wifi_workspace_1793012173358.jpg';
+import facilityRoomServiceImg from '../assets/images/facility_room_service_1793012174869.jpg';
+import facilityParkingImg from '../assets/images/facility_guest_parking_1793012175746.jpg';
+import facilityReceptionImg from '../assets/images/facility_hotel_reception_1793012176479.jpg';
+import facilityHousekeepingImg from '../assets/images/facility_housekeeping_care_1793012177752.jpg';
+
 export interface RoomCategory {
   id: string;
   name: string;
@@ -68,16 +79,16 @@ export const HOTEL_INFO = {
 };
 
 export const IMAGES = {
-  heroFacade: '/src/assets/images/hero_hotel_maracana_1793007146083.jpg',
-  executiveSuite: '/src/assets/images/room_executive_suite_1793007148625.jpg',
-  deluxeTwin: '/src/assets/images/room_deluxe_twin_1793007148472.jpg',
-  familyStudio: '/src/assets/images/room_family_studio_1793007150123.jpg',
-  hospitalityLounge: '/src/assets/images/hotel_hospitality_lounge_1793007150089.jpg',
-  facilityWifi: '/src/assets/images/facility_wifi_workspace_1793012173358.jpg',
-  facilityRoomService: '/src/assets/images/facility_room_service_1793012174869.jpg',
-  facilityParking: '/src/assets/images/facility_guest_parking_1793012175746.jpg',
-  facilityReception: '/src/assets/images/facility_hotel_reception_1793012176479.jpg',
-  facilityHousekeeping: '/src/assets/images/facility_housekeeping_care_1793012177752.jpg',
+  heroFacade: heroFacadeImg,
+  executiveSuite: executiveSuiteImg,
+  deluxeTwin: deluxeTwinImg,
+  familyStudio: familyStudioImg,
+  hospitalityLounge: hospitalityLoungeImg,
+  facilityWifi: facilityWifiImg,
+  facilityRoomService: facilityRoomServiceImg,
+  facilityParking: facilityParkingImg,
+  facilityReception: facilityReceptionImg,
+  facilityHousekeeping: facilityHousekeepingImg,
 };
 
 export function buildWhatsAppUrl(customMessage?: string): string {
