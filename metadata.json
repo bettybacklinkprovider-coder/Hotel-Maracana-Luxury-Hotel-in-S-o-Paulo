@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Maracana – Luxury Hotel in São Paulo",
+  "description": "Experience refined Brazilian hospitality at Hotel Maracana in Brás, São Paulo. Explore luxury rooms, exclusive stay packages, verified facilities, and direct booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
